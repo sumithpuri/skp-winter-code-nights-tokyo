@@ -1,9 +1,21 @@
 /**
+ * Refer to the Java Code (developed by Sumith Puri) for an iterative solution for the longest palindrome in a substring. 
+ * It might be asked in one of your interviews for big companies like Yahoo, Symantec, Huawei, Oracle, Microsoft, Amazon, 
+ * or Google! Also, you might want to sometimes natively implement it for any of your requirements, like tools in ur org.
+*/
+
+// Find the Longest Palindrome in a [ Given String ]
+// Embed in your Desktop, Mobile or Enterprise Apps
+// Sumith Puri [I Bleed Java!]; GitHub: @sumithpuri
+// Tested On 01-01-2023 - All OK
+
+/**
  * @author sumith.puri
  * 
  *         O(n*n*n) : Time Complexity - Iterative Logic (Our Solution) Recursive
  *         Dynamic Programming is O (n*n) - You May Try Out!
  */
+
 public class LongestPalindrome {
 
 	public static String longestPalindrome(String gString) {
@@ -49,6 +61,7 @@ public class LongestPalindrome {
 	public static void main(String[] args) {
 
 		// String iString="12232133123111";
+		// Modify this String to Test / Understand the Program Logic
 		String iString = "WOOWMALAYALAMBABBABNOONSHOTFARSAIPPUAKIVIKAUPPIASTTATIPADGASLOONDI";
 		System.out.println(longestPalindrome(iString));
 	}

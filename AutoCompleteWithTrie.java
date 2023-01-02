@@ -1,3 +1,15 @@
+/*
+Refer to the Java Code (Developed By Sumith Puri) for the solution of Autocomplete (Word Search) using Trie. It might be 
+asked in one of your interviews for bigger companies like Yahoo, Symantec, Huawei, Oracle, Microsoft, Amazon, or Google! 
+Also, you might want to sometimes natively implement it for any of your requirements like tools  or utilities... in your 
+organization.
+*/
+
+// Autcomplete Implementation - Trie Implementation
+// Embed in your Desktop, Mobile or Enterprise Apps
+// Sumith Puri [I Bleed Java!]; GitHub: @sumithpuri
+// Tested On 01-01-2023 - All OK
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.ListIterator;
