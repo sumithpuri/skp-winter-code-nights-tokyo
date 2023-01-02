@@ -1,4 +1,4 @@
-/**
+/*
  * Refer to the Java Code (developed by Sumith Puri) for an iterative solution for the longest palindrome in a substring. 
  * It might be asked in one of your interviews for big companies like Yahoo, Symantec, Huawei, Oracle, Microsoft, Amazon, 
  * or Google! Also, you might want to sometimes natively implement it for any of your requirements, like tools in ur org.

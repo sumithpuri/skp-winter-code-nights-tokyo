@@ -1,7 +1,8 @@
 /* 
 
 [Input Format]
-The First Line consists of Total Number of Trees (N). Each of the Following N Lines contains the Height of Trees in a Clockwise Fashion.
+The First Line consists of Total Number of Trees (N). Each of the Following N Lines contains the  Height  of  Trees in a 
+Clockwise Fashion.
 
 [Constraints]
 1 <= Total Trees <= 30
@@ -11,7 +12,11 @@ The First Line consists of Total Number of Trees (N). Each of the Following N Li
 You must Print an Integer which will be the Maximum Possible Travel Time.
 
 [Explanation of the Solution]
-Surprisingly, this Problem is under the Object-Oriented Programming (OOP) Section of the Problems! Initially, I was on the Lookout for a 'Mathematically Superior' Solution. But I Couldn't Reach Anywhere — In the End, I have a Simple Solution at O(n²). Iterate through Each 'Combination of Trees' and then Find the Clockwise and Anti-Clockwise Distance — At Each Iteration, the Minimum of the Two is Added to the Length of Each Tree. If this Value is Greater than the Maximum Path Length (Previous Iterations) — Replace the Maximum Path Length.
+Surprisingly, this Problem is under the Object-Oriented Programming (OOP) Section of the Problems! Initially... I was on 
+the Lookout for a ' [Mathematically Superior] ' Solution. But I couldn't Reach anywhere — In the  end  I have a simple 
+Solution at O(n²).. Iterate through Each 'Combination of Trees' and then Find the Clockwise and Anti-Clockwise Distance 
+— At Each Iteration... the Minimum of the Two is Added to the Length of Each Tree... If this Value is Greater than the 
+Maximum Path Length (Previous Iterations) — Replace the Maximum Path Length.
 
 [Sample Input]
 4
